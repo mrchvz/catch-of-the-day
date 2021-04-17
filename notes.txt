@@ -1,0 +1,18 @@
+02 - Thinking and Understanding React Components
+Everything in React is a component
+Component: Are like functions. Accept arbitary inputs (props) and return React elements describing what should appear on the screen.
+
+
+08 — Stateless Functional Components
+This simplified component is intended for components that are pure functions of their props. These components must not retaing internal state. They are pure functional transforms of their input.
+
+
+13 — Understanding State
+Master object.
+
+
+const fishes = {...this.state.fishes};
+take a copy of your existing state
+
+this.setState({fishes: fishes})
+the state of fishes has change with the object fishes
